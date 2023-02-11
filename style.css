@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header{
+    background-color: rgb(212, 200, 200);
+}
+nav>a{
+    display: inline-block;
+    border: 2px solid black;
+    color: white;
+    margin-right: 7px;
+    background-color: rgb(66, 66, 139);
+    width: 5rem;
+    height: 2rem;
+    text-align: center;
+    padding: 0.3rem;
+    text-decoration: none;
+    border-radius: 1rem;
+   
+}
+a[href="#"]{
+    background-color: rgb(201, 187, 3);
+    color: white;
+}
+
+#logo{
+    margin-top: 2%;
+    width: 8.5rem;
+    margin-inline: 1%;
+    border-radius: 10px;
+    background-color: black;
+
+}
+#img{
+object-fit: cover;
+width: 100vw;
+background-repeat:no-repeat;
+height: 40vh;
+}
+#img2{
+    position: absolute;
+    width: 13rem;
+    margin-left: 64vw;
+    border-radius: 25px;
+    border: 2px solid black;
+    margin-top: 1.5vw;
+}
+#img3{
+    margin-left: 6vw;
+    border-radius: 25px;
+    border: 2px solid black;
+    width: 9rem;
+}
+
+h1{
+    position: relative;
+    top: 0rem;
+}
+h2{
+    border: 2px solid black;
+    text-align: center;
+    margin: -0.2rem 0 ;
+}
+.nav1{
+    position: relative;
+    isolation: isolate;
+}
+.nav2{
+    position: absolute;
+    right: 1rem;
+    top: -1rem;
+}
+p{
+    margin-inline: 1rem ;
+}
+.txt{
+    display: inline-block;
+    position: absolute;
+    margin-top: 1.8rem;
+    margin-left: 1.5rem;
+    width: 60%; 
+text-align: justify;
+     }
+ 
