@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body, header {
+    background: linear-gradient(60deg, rgb(65, 50, 124) 0%, rgb(30, 130, 143) 100%);
+}
+
+
+nav>a {
+    display: inline-block;
+    border: 1px solid black;
+    color: white;
+    margin-right: 7px;
+    background-color: rgb(66, 66, 139);
+    text-align: center;
+    padding: 0.3rem;
+    text-decoration: none;
+    border-radius: 1rem;
+   margin-top: 2.2rem ;
+    
+}
+
+a[href="#"] {
+    background-color: rgb(161, 167, 111);
+    color: white;
+}
+
+#logo {
+    margin-top: 2%;
+    width: 7.5rem;
+    margin-inline: 1%;
+    border-radius: 10px;
+    background-color: black;
+
+}
+
+#img {
+    object-fit: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 40vh;
+}
+
+#img2 {
+    width: 10rem;
+    border-radius: 25px;
+    border: 2px solid black;
+    margin-top: 2%;
+    margin-inline: 1%;
+}
+
+#img3 {
+    margin-left: 6vw;
+    border-radius: 25px;
+    border: 2px solid black;
+    width: 9rem;
+}
+
+h1 {
+    
+    top: 0rem;
+    color: rgb(161, 167, 111);
+}
+
+h2 {
+    background: linear-gradient(60deg, rgb(65, 50, 124) 0%, rgb(30, 130, 143) 100%);
+    text-align: center;
+    margin: -0.2rem 0;
+}
+h3{
+    color: rgb(161, 167, 111);
+}
+.nav1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.nav2 {
+    position: absolute;
+    right: 1rem;
+    top: -1rem;
+}
+#mail {
+    color: rgb(161, 167, 111);
+}
+p {
+    margin-inline: 1rem;
+}
+
+.txt {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: justify;
+    margin-inline: 1%;
+}
+
+.txt1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: justify;
+    margin-inline: 1%;
+}
+
+.txt2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    align-items: center;
+    margin-inline: 3%;
+}
+
+.txt3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+   
+    margin-top: 1.5rem;
+    justify-content: space-around;
+
+}
+
+#log2 {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+figure {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+table {
+    display: flex;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 1.5rem;
+    justify-content: space-around;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+   
+}
+
+th {
+    background-color: rgb(140, 137, 167);
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: lightyellow;
+}
+
+tr:hover {
+    background-color: rgb(161, 167, 111);
+    color: white;
+}
+li{
+    font-weight: bold;
+}
