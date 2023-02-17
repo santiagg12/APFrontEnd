@@ -35,10 +35,10 @@
                     <div><img src="./assets/img/Logo_Mighty_ducks-01.png" width="180" alt="Image 1" id="logoreg"></div>
                     <div>
                         <label for="name">Player First Name:</label>
-                        <input type="text" name="Name" id="Name" placeholder="Name">
+                        <input type="text" name="Name" id="Name" placeholder="Name" required>
 
                         <label for="name">Last Name:</label>
-                        <input type="text" name="Last-Name" id="Last-Name" placeholder="Last Name">
+                        <input type="text" name="Last-Name" id="Last-Name" placeholder="Last Name" required>
                     </div>
 
 
@@ -47,39 +47,39 @@
 
                     <div>
                         <label for="city">City:</label>
-                        <input type="text" name="City" id="City" placeholder="City">
+                        <input type="text" name="City" id="City" placeholder="City"required>
 
                         <label for="z_code">Zip Code:</label>
-                        <input type="number" name="Zip-code" id="Zip-code" placeholder="Code">
+                        <input type="number" name="Zip-code" id="Zip-code" placeholder="Code" required>
                     </div>
 
                     <div>
                         <label for="date">Birth date</label>
-                        <input type="date" name="Date" id="Date" >
+                        <input type="date" name="Date" id="Date" min="1940-01-01" max="2023-12-31"  required>
 
 <label for="Female">Female</label>
-<input type="radio" name="Gender" value="Female" id="Female">
+<input type="radio" name="Gender" value="F" id="Female">
 <label for="Male">Male</label>
-<input type="radio" name="Gender" value="Male" id="Male">
+<input type="radio" name="Gender" value="M" id="Male">
                     </div>
                     <fieldset>
                         <legend>Grade:</legend>
-                        <input type="radio" name="Grade" id="p_school" value="pre-school">
+                        <input type="radio" name="Grade" id="p_school" value="pre-school" required>
                         <label for="p_school">Pre-school</label>
                       
-                        <input type="radio" name="Grade" id="first" value="1st">
+                        <input type="radio" name="Grade" id="first" value="1st" required>
                         <label for="first">1st</label>
                       
-                        <input type="radio" name="Grade" id="second" value="2nd">
+                        <input type="radio" name="Grade" id="second" value="2nd" required>
                         <label for="second">2nd</label>
                       
-                        <input type="radio" name="Grade" id="third" value="3rd">
+                        <input type="radio" name="Grade" id="third" value="3rd" required>
                         <label for="third">3rd</label>
                       
-                        <input type="radio" name="Grade" id="fourth" value="4th">
+                        <input type="radio" name="Grade" id="fourth" value="4th"required>
                         <label for="fourth">4th</label>
                       
-                        <input type="radio" name="Grade" id="fifth" value="5th">
+                        <input type="radio" name="Grade" id="fifth" value="5th" required>
                         <label for="fifth">5th</label>
                       </fieldset>
                       
@@ -154,11 +154,11 @@
                     <fieldset>
                         <div>
                             <label for="signature">Parent/GuardianSignature:</label>
-                            <input type="text" name="signature" id="signature" placeholder=" Signature">
+                            <input type="text" name="signature" id="signature" placeholder=" Signature" required>
                         </div>
                         <div>
                             <label  for="Date2">Date:</label>
-                            <input type="Date" name="Date2" id="Date2" >
+                            <input type="Date" name="Date2" id="Date2" min="1940-01-01" max="2023-12-31" required>
                         </div>
                         
                     </fieldset>
