@@ -61,7 +61,6 @@ a[href="#"] {
 }
 
 h1 {
-    
     top: 0rem;
     color: rgb(161, 167, 111);
 }
@@ -69,7 +68,7 @@ h1 {
 h2 {
     background: linear-gradient(60deg, rgb(65, 50, 124) 0%, rgb(30, 130, 143) 100%);
     text-align: center;
-    margin: -0.2rem 0;
+    margin: -0.1rem 0;
 }
 h3{
     color: rgb(161, 167, 111);
@@ -116,14 +115,14 @@ p {
     flex-wrap: nowrap;
     align-content: space-around;
     align-items: center;
-    margin-inline: 3%;
+    margin-inline: 7%;
+    margin-bottom: 3rem;
 }
 
 .txt3 {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-   
     margin-top: 1.5rem;
     justify-content: space-around;
 
@@ -134,7 +133,7 @@ p {
     flex-direction: column;
     align-content: space-around;
     justify-content: space-around;
-    align-items: baseline;
+  
 }
 
 figure {
@@ -174,4 +173,69 @@ tr:hover {
 }
 li{
     font-weight: bold;
+}
+fieldset{
+border: none;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+input {
+    border: 1px solid rgb(161, 167, 111);
+    font-size: 15px;
+    margin-top: 10px;
+    
+  }
+
+  form {
+    width: 850px;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid rgb(161, 167, 111);
+    border-radius: 5px;
+  }
+  legend {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  #logoreg {
+    display: flex;
+    margin-left:  42%;
+    border-radius: 10px;
+    background-color: black;
+    height: 8rem;
+    width: 7rem;
+
+}
+label{
+    font-size: 17px;
+}
+iframe{
+    margin: 3rem;
+    border-radius: 1.5rem;
+    margin-left: 15rem;
+    margin-right: 10rem;
+   
+}
+#near{
+width: 13rem;
+height: 1.4rem;
+}
+
+.firms {
+    display: inline-block;
+}
+
+.boton-Sub {
+    color:black;
+    background-color: rgb(161, 167, 111);
+    border-color:black;
+    border-radius: 15px;
+    width: 30%;
+    margin: 1rem auto;
+    display: block;
+    
 }
